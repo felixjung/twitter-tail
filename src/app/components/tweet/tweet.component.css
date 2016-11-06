@@ -1,0 +1,24 @@
+:host {
+  display: flex;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:host:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.tweet__profile-picture-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tweet__profile-picture-wrapper > img {
+  border-radius: 5px;
+}
+
+.tweet__text {
+  padding: 12px;
+}
